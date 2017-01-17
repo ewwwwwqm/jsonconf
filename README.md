@@ -49,5 +49,5 @@ Output:
 [cov-img]: https://coveralls.io/repos/github/ewwwwwqm/jsonconfbadge.svg?branch=master
 [ci]: https://travis-ci.org/ewwwwwqm/jsonconf
 [cov]: https://coveralls.io/github/ewwwwwqm/jsonconf?branch=master
-[goreportcard-img]: https://goreportcard.com/badge/github.com/ewwwwwqm/jsonconf
+[goreportcard-img]: https://goreportcard.com/badge/github.com/ewwwwwqm/jsonconf?etag=1
 [goreportcard]: https://goreportcard.com/report/github.com/ewwwwwqm/jsonconf
