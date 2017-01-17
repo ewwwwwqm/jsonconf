@@ -1,7 +1,7 @@
 JSONConf
 ========
 
-Package for parsing .json configuration files to defined structures
+Package for parsing .json configuration files to defined structures.
 
 Usage
 -----
