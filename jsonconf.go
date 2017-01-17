@@ -2,9 +2,9 @@
 package jsonconf
 
 import (
+	"encoding/json"
 	"fmt"
 	"io/ioutil"
-	"encoding/json"
 )
 
 // Parse JSON using filename and scheme interface.
