@@ -11,10 +11,10 @@ import (
 func Parse(filename string, scheme interface{}) {
 	body, err := ioutil.ReadFile(filename)
 	if err != nil {
-		fmt.Println("Failed to read config: %v", err)
+		fmt.Println("Failed to read config:", err)
 	}
 	err = json.Unmarshal([]byte(body), scheme)
 	if err != nil {
-		fmt.Println("Failed to decode config: %v", err)
+		fmt.Println("Failed to decode config:", err)
 	}
 }
