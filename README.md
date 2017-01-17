@@ -1,14 +1,15 @@
-JSONConf
-========
+# JSONConf
+
+[![Godoc Reference][godoc-img]][godoc]
+[![Build Status][ci-img]][ci]
+[![Go Report Card][goreportcard-img]][goreportcard]
 
 Package for parsing .json configuration files to defined structures.
 
-Usage
------
+## Usage
 ``` $ go get github.com/ewwwwwqm/jsonconf ```
 
-Example
--------
+## Example
 ``` config.json ```
 ```json
 {
@@ -38,4 +39,15 @@ func main() {
 ```
 
 Output:
-  {[1 34 77703]}
+```go
+{[1 34 77703]}
+```
+
+[godoc]: http://godoc.org/github.com/ewwwwwqm/jsonconf
+[godoc-img]: https://godoc.org/github.com/ewwwwwqm/jsonconf?status.svg
+[ci-img]: https://travis-ci.org/ewwwwwqm/jsonconf.svg?branch=master
+[cov-img]: https://coveralls.io/repos/github/ewwwwwqm/jsonconfbadge.svg?branch=master
+[ci]: https://travis-ci.org/ewwwwwqm/jsonconf
+[cov]: https://coveralls.io/github/ewwwwwqm/jsonconf?branch=master
+[goreportcard-img]: https://goreportcard.com/badge/github.com/ewwwwwqm/jsonconf
+[goreportcard]: https://goreportcard.com/report/github.com/ewwwwwqm/jsonconf
